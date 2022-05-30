@@ -1,19 +1,14 @@
-# vuex_json_server
+For the project to work, you need to install a json server globally.
 
-## Project setup
-```
-npm install
-```
+To install the json server, run:
+npm install -g json server
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Then the command will work: npm startup api
 
-### Compiles and minifies for production
-```
-npm run build
-```
+100 posts will be loaded from the data/db database.json
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+And the app will work.
+
+1. npm run serve
+2. npm run api
+3. refresh page http://localhost:8080/
